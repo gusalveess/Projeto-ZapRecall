@@ -1,0 +1,77 @@
+body {
+    background-color: #FB6B6B;
+}
+
+.Logo {
+    padding-top: 148px;
+    padding-left: 119px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 105px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+.iniciar {
+    height: 54px;
+    width: 246px;
+    margin-left: 64px;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #D70900;
+    border-radius: 5px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #D70900;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.titleQuest {
+    display: flex;
+}
+
+.logo-pequeno {
+    padding-left: 59px;
+    padding-top: 44px;
+    box-sizing: border-box;
+}
+
+.titleQuest p {
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-top: 55px;
+    box-sizing: border-box;
+}
+
+.status {
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.status p {
+    font-family: 'Recursive';
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.hidden {
+    display: none;
+}
