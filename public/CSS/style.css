@@ -2,9 +2,23 @@ body {
     background-color: #FB6B6B;
 }
 
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Tela Inicial de Play*/
+.Telainicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .Logo {
     padding-top: 148px;
-    padding-left: 119px;
     box-sizing: border-box;
 }
 
@@ -12,7 +26,6 @@ body {
     font-family: 'Righteous';
     font-size: 36px;
     color: #FFFFFF;
-    padding-left: 105px;
     padding-top: 25px;
     box-sizing: border-box;
 }
@@ -20,7 +33,6 @@ body {
 .iniciar {
     height: 54px;
     width: 246px;
-    margin-left: 64px;
     margin-top: 40px;
     background-color: #FFFFFF;
     border: 1px solid #D70900;
@@ -33,13 +45,15 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+/*Tela de Perguntas*/
+
 .titleQuest {
     display: flex;
 }
 
 .logo-pequeno {
-    padding-left: 59px;
-    padding-top: 44px;
+    padding-left: 30px;
+    padding-top: 20px;
     box-sizing: border-box;
 }
 
@@ -48,7 +62,7 @@ body {
     font-size: 36px;
     color: #FFFFFF;
     padding-left: 25px;
-    padding-top: 55px;
+    padding-top: 25px;
     box-sizing: border-box;
 }
 
@@ -62,7 +76,6 @@ body {
     border-radius: 5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
     margin-top: 51px;
-    margin-left: 37px;
 }
 
 .pergunta p {
@@ -75,10 +88,33 @@ body {
 .pergunta ion-icon {
     font-size: 32px;
     color: #333333;
-    --ionicon-stroke-width : 46px ;
+    --ionicon-stroke-width: 46px;
     cursor: pointer;
 }
 
+.quest {
+    width: 299px;
+    height: 131px;
+    background-color: #FFFFD4;
+    margin-top: 30px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.quest p {
+    color: #333333;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+
+.quest img {
+    padding-top: 70px;
+    padding-left: 254px;
+}
+
+/* Barra fixa de Status */
 .status {
     height: 70px;
     width: 100%;
@@ -86,7 +122,7 @@ body {
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
     position: fixed;
     bottom: 0;
     left: 0;
