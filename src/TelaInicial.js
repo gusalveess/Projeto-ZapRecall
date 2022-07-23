@@ -3,8 +3,8 @@ import Perguntas from './Perguntas';
 
 export default function Inicio() {
 
-    const [TelaInicial, setEsconder]  = useState("Telainicial")
-    const [TelaPerguntas, removeEsconder] = useState("tela-de-perguntas hidden")
+    const [TelaInicial, setEsconder]  = useState("Telainicial");
+    const [TelaPerguntas, removeEsconder] = useState("tela-de-perguntas hidden");
 
     function trocar(){
         setEsconder("Telainicial hidden")
